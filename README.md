@@ -22,6 +22,7 @@ This project introduces a **spatial-context-aware registration framework** with:
 ## 📍 Motivation
 
 > “Conventional registration methods break down with sparse, non-overlapping scans. This work tackles the failure modes of modern LiDAR in underground or structured environments.”
+
 ---
 
 ## 🧠 Key Contributions
@@ -55,14 +56,13 @@ We tested our method in 6 real-world CERN environments, including:
 - Object-rich labs (CHARM)
 - Symmetrical domes (Dumparea)
 
-
 ---
 
 ## 🗺️ Reconstructed Maps
 
 Each map below showcases high-fidelity 3D reconstruction, sharper geometry, and better alignment using our proposed method.
 
-![Map Comparisons](Figures/FINALMAPS.jpeg)
+![Map Comparisons](Figures/finalmaps.png)
 
 ---
 
@@ -70,7 +70,13 @@ Each map below showcases high-fidelity 3D reconstruction, sharper geometry, and 
 
 - 📁 `testdata/`: Benchmark point cloud datasets from CERN  
 - 📁 `Figures/`: Visuals used in the paper and documentation  
-- 📁 `nonrep/`: Core registration and SLAM pipeline code
+- 📁 `nonrep/`: Core registration and SLAM pipeline code  
+
 ---
 
+## ⚙️ Requirements
 
+Install the required dependencies with:
+
+```bash
+pip install numpy open3d matplotlib scipy scikit-learn pandas
