@@ -1,6 +1,6 @@
 # Non-Repetitive Scan Correction for LiDAR Odometry via Spatial Analysis in CERN Facilities
 
-![Header Image](Figures/non-scan.png)
+![Header Image](Figures/Graphical_Abstract.png)
 
 ## 🚀 Overview
 
@@ -22,10 +22,6 @@ This project introduces a **spatial-context-aware registration framework** with:
 ## 📍 Motivation
 
 > “Conventional registration methods break down with sparse, non-overlapping scans. This work tackles the failure modes of modern LiDAR in underground or structured environments.”
-
-![Failure Case](Figures/fail.png)  
-*Failed LiDAR registration with dense ceiling points and low overlap*
-
 ---
 
 ## 🧠 Key Contributions
@@ -40,7 +36,7 @@ This project introduces a **spatial-context-aware registration framework** with:
 
 ## 🧰 Method Overview
 
-![Pipeline](Figures/flowchart.png)
+![Pipeline](Figures/flowchart_final.png)
 
 The method combines:
 - **Comprehensive feature extraction** (FPFH, PCA, normals)
@@ -55,14 +51,10 @@ The method combines:
 ### 🔍 Quantitative & Visual Results
 
 We tested our method in 6 real-world CERN environments, including:
-- Tunnels (BAI6, BA5)
+- Tunnels (BA6, BA5)
 - Object-rich labs (CHARM)
 - Symmetrical domes (Dumparea)
 
-📉 **Trajectory comparisons and mapping output** demonstrate our method’s superior accuracy, robustness, and fidelity.
-
-![Odometry Comparison](Figures/Odom.png)  
-*Trajectory alignment: Ours (blue), Ground Truth (black), GICP baseline (orange dashed)*
 
 ---
 
@@ -76,11 +68,9 @@ Each map below showcases high-fidelity 3D reconstruction, sharper geometry, and 
 
 ## 📂 Datasets & Structure
 
-- 📁 `data/`: Benchmark point cloud datasets from CERN  
-- 📁 `configs/`: Configuration files for each facility  
+- 📁 `testdata/`: Benchmark point cloud datasets from CERN  
 - 📁 `Figures/`: Visuals used in the paper and documentation  
-- 📁 `src/`: Core registration and SLAM pipeline code
-
+- 📁 `nonrep/`: Core registration and SLAM pipeline code
 ---
 
 
