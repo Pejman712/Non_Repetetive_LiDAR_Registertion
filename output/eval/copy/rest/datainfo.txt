@@ -1,5 +1,0 @@
-test1 BAIG6
-test2 Charm
-test3 927
-test4 north2
-test5 927a
