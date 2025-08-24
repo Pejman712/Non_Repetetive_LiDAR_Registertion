@@ -13,8 +13,6 @@ This project introduces a **spatial-context-aware registration framework** with:
 - Multi-strategy motion prediction
 - Adaptive pose fusion
 - Robustness to minimal scan overlap and distorted motion
-
-👉 [📄 IEEE Access Paper](https://doi.org/10.1109/ACCESS.2024.0429000)  
 👉 [🔗 GitHub Code](https://github.com/Pejman712/NonRep.git)
 
 ---
@@ -62,7 +60,7 @@ We tested our method in 6 real-world CERN environments, including:
 
 Each map below showcases high-fidelity 3D reconstruction, sharper geometry, and better alignment using our proposed method.
 
-![Map Comparisons](Figures/finalmaps.png)
+![Map Comparisons](Figures/FINALMAPS.jpeg)
 
 ---
 
@@ -70,7 +68,6 @@ Each map below showcases high-fidelity 3D reconstruction, sharper geometry, and 
 
 - 📁 `testdata/`: Benchmark point cloud datasets from CERN  
 - 📁 `Figures/`: Visuals used in the paper and documentation  
-- 📁 `nonrep/`: Core registration and SLAM pipeline code  
 
 ---
 
