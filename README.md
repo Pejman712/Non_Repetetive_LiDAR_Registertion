@@ -74,9 +74,25 @@ Each map below showcases high-fidelity 3D reconstruction, sharper geometry, and 
 
 ---
 
-## ⚙️ Requirements
+## ⚙️ Requirements and Usage
 
 Install the required dependencies with:
 
 ```bash
 pip install numpy open3d matplotlib scipy scikit-learn pandas
+
+Simply run nonrep with the correct pcd folder
+
+```bash
+python3 nonrep.py
+
+
+you can also run evaluation by
+```bash
+python3 evaluate.py
+
+
+
+
+
+
