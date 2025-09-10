@@ -65,9 +65,10 @@ Each map below showcases high-fidelity 3D reconstruction, sharper geometry, and 
 ---
 
 ## 📂 Datasets & Structure
-
+The bag files containing the lidar and IMU topics can be found at https://doi.org/10.5281/zenodo.17091989
 - 📁 `testdata/`: Benchmark point cloud datasets from CERN  
 - 📁 `Figures/`: Visuals used in the paper and documentation  
+
 
 ---
 
