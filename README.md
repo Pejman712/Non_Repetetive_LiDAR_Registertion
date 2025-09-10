@@ -1,6 +1,6 @@
 # Non-Repetitive Scan Correction for LiDAR Odometry via Spatial Analysis in CERN Facilities
 
-![Header Image](Figures/Graphical_Abstract.png)
+![Header Image](Figures/gaf.png)
 
 ## 🚀 Overview
 
@@ -35,7 +35,7 @@ This project introduces a **spatial-context-aware registration framework** with:
 
 ## 🧰 Method Overview
 
-![Pipeline](Figures/flowchart_final.png)
+![Pipeline](Figures/pipeline.png)
 
 The method combines:
 - **Comprehensive feature extraction** (FPFH, PCA, normals)
@@ -60,7 +60,7 @@ We tested our method in 6 real-world CERN environments, including:
 
 Each map below showcases high-fidelity 3D reconstruction, sharper geometry, and better alignment using our proposed method.
 
-![Map Comparisons](Figures/FINALMAPS.jpeg)
+![Map Comparisons](Figures/maps.jpeg)
 
 ---
 
