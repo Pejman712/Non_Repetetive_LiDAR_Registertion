@@ -60,7 +60,7 @@ We tested our method in 6 real-world CERN environments, including:
 
 Each map below showcases high-fidelity 3D reconstruction, sharper geometry, and better alignment using our proposed method.
 
-![Map Comparisons](Figures/maps.jpeg)
+![Map Comparisons](Figures/maps.png)
 
 ---
 
