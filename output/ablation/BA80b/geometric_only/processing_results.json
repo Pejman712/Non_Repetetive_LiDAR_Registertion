@@ -1,0 +1,5494 @@
+[
+  {
+    "scan_file": "cloud000000.pcd",
+    "scan_index": 0,
+    "predicted_pose": null,
+    "observed_pose": [
+      0.04628814938604738,
+      0.03297005320700512,
+      0.0,
+      0.07512871155570015
+    ],
+    "final_pose": [
+      0.04628814938604738,
+      0.03297005320700512,
+      0.0,
+      0.07512871155570015
+    ],
+    "prediction_confidence": 0.0,
+    "features": "extracted",
+    "motion_analysis": {},
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000001.pcd",
+    "scan_index": 1,
+    "predicted_pose": null,
+    "observed_pose": [
+      0.013172207710190911,
+      0.035815552075838177,
+      0.0,
+      0.03224292999647372
+    ],
+    "final_pose": [
+      0.013172207710190911,
+      0.035815552075838177,
+      0.0,
+      0.03224292999647372
+    ],
+    "prediction_confidence": 0.0,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 2,
+      "avg_movement": 0.0332379670992565,
+      "movement_std": 0.0,
+      "avg_confidence": 0.9533997119930326,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000002.pcd",
+    "scan_index": 2,
+    "predicted_pose": null,
+    "observed_pose": [
+      0.042011770778614815,
+      0.0462928963054625,
+      0.0,
+      -0.004194599635881483
+    ],
+    "final_pose": [
+      0.042011770778614815,
+      0.0462928963054625,
+      0.0,
+      -0.004194599635881483
+    ],
+    "prediction_confidence": 0.0,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 3,
+      "avg_movement": 0.03196087994547549,
+      "movement_std": 0.0012770871537810102,
+      "avg_confidence": 0.9510381976200887,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000003.pcd",
+    "scan_index": 3,
+    "predicted_pose": [
+      0.13280683859131892,
+      0.06440208589587804,
+      0.0,
+      -0.034183877341365465
+    ],
+    "observed_pose": [
+      0.021392650808510945,
+      0.044488520322814265,
+      0.0,
+      -0.004749654647124847
+    ],
+    "final_pose": [
+      0.021392650808510945,
+      0.044488520322814265,
+      0.0,
+      -0.004749654647124847
+    ],
+    "prediction_confidence": 0.3333333333333333,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 4,
+      "avg_movement": 0.028206559872674147,
+      "movement_std": 0.005410835377614668,
+      "avg_confidence": 0.956808691165331,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000004.pcd",
+    "scan_index": 4,
+    "predicted_pose": [
+      0.03487548863698546,
+      0.045337598307691254,
+      0.0,
+      0.008502097942063537
+    ],
+    "observed_pose": [
+      0.016106881792899822,
+      0.07033775609918999,
+      0.0,
+      0.1516370140590146
+    ],
+    "final_pose": [
+      0.016106881792899822,
+      0.07033775609918999,
+      0.0,
+      0.1516370140590146
+    ],
+    "prediction_confidence": 0.33331433882666844,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 5,
+      "avg_movement": 0.027750952539303295,
+      "movement_std": 0.004751903696351468,
+      "avg_confidence": 0.9550484558108365,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000005.pcd",
+    "scan_index": 5,
+    "predicted_pose": [
+      0.015252535609841703,
+      0.08786634461287215,
+      0.0,
+      0.3020337739504674
+    ],
+    "observed_pose": [
+      -0.05195727928133942,
+      0.1333370845291929,
+      0.0,
+      0.1640953949037263
+    ],
+    "final_pose": [
+      -0.05195727928133942,
+      0.1333370845291929,
+      0.0,
+      0.1640953949037263
+    ],
+    "prediction_confidence": 0.33326362376557783,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 6,
+      "avg_movement": 0.04074977322381767,
+      "movement_std": 0.026342775627183897,
+      "avg_confidence": 0.9545642952228768,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000006.pcd",
+    "scan_index": 6,
+    "predicted_pose": [
+      -0.12794096119427414,
+      0.19812952935652126,
+      0.0,
+      0.3210339523238204
+    ],
+    "observed_pose": [
+      -0.11706648200521338,
+      0.15249417886452155,
+      0.0,
+      0.17251297585385827
+    ],
+    "final_pose": [
+      -0.11706648200521338,
+      0.15249417886452155,
+      0.0,
+      0.17251297585385827
+    ],
+    "prediction_confidence": 0.3331923675816875,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 7,
+      "avg_movement": 0.04526964604972313,
+      "movement_std": 0.026085074434727126,
+      "avg_confidence": 0.9513252163533876,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000007.pcd",
+    "scan_index": 7,
+    "predicted_pose": [
+      -0.2112337010616417,
+      0.2193019426663757,
+      0.0,
+      0.18954677829647934
+    ],
+    "observed_pose": [
+      -0.20609375276742456,
+      0.15019255529532874,
+      0.0,
+      0.15968979320707152
+    ],
+    "final_pose": [
+      -0.20609375276742456,
+      0.15019255529532874,
+      0.0,
+      0.15968979320707152
+    ],
+    "prediction_confidence": 0.3331932036244381,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 8,
+      "avg_movement": 0.051524984863967,
+      "movement_std": 0.02860073856237416,
+      "avg_confidence": 0.9510974426229377,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000008.pcd",
+    "scan_index": 8,
+    "predicted_pose": [
+      -0.3262314701469262,
+      0.1481673904424119,
+      0.0,
+      0.06233331062606391
+    ],
+    "observed_pose": [
+      -0.2607867139119307,
+      0.1583192686304346,
+      0.0,
+      0.19572695782488506
+    ],
+    "final_pose": [
+      -0.2607867139119307,
+      0.1583192686304346,
+      0.0,
+      0.19572695782488506
+    ],
+    "prediction_confidence": 0.33327494590607115,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 9,
+      "avg_movement": 0.051996040581952736,
+      "movement_std": 0.026782554395543497,
+      "avg_confidence": 0.9513581405529684,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000009.pcd",
+    "scan_index": 9,
+    "predicted_pose": [
+      -0.3349244027927611,
+      0.12517974338516313,
+      0.0,
+      0.2068231148948795
+    ],
+    "observed_pose": [
+      -0.30130334685475346,
+      0.16834634668936407,
+      0.0,
+      0.21646737120815562
+    ],
+    "final_pose": [
+      -0.30130334685475346,
+      0.16834634668936407,
+      0.0,
+      0.21646737120815562
+    ],
+    "prediction_confidence": 0.3333136325210118,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 10,
+      "avg_movement": 0.05085636370730102,
+      "movement_std": 0.025455756657084497,
+      "avg_confidence": 0.9503407810788136,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000010.pcd",
+    "scan_index": 10,
+    "predicted_pose": [
+      -0.3384055004902923,
+      0.171375123203395,
+      0.0,
+      0.2568388850389437
+    ],
+    "observed_pose": [
+      -0.4217040544394117,
+      0.2104475982818621,
+      0.0,
+      0.22198189310740066
+    ],
+    "final_pose": [
+      -0.4217040544394117,
+      0.2104475982818621,
+      0.0,
+      0.22198189310740066
+    ],
+    "prediction_confidence": 0.3333206247768442,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 11,
+      "avg_movement": 0.0585256658987676,
+      "movement_std": 0.03335505594692563,
+      "avg_confidence": 0.9481248018250579,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000011.pcd",
+    "scan_index": 11,
+    "predicted_pose": [
+      -0.49702156440407,
+      0.25353123614451967,
+      0.0,
+      0.25067975092148537
+    ],
+    "observed_pose": [
+      -0.6642244129449965,
+      0.3168194014233531,
+      0.0,
+      0.17276817440676281
+    ],
+    "final_pose": [
+      -0.6642244129449965,
+      0.3168194014233531,
+      0.0,
+      0.17276817440676281
+    ],
+    "prediction_confidence": 0.3332906556764546,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 12,
+      "avg_movement": 0.07727994556370406,
+      "movement_std": 0.0672952302813349,
+      "avg_confidence": 0.9431343986463587,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000012.pcd",
+    "scan_index": 12,
+    "predicted_pose": [
+      -0.921745489130487,
+      0.43072181720948083,
+      0.0,
+      0.11618651819496048
+    ],
+    "observed_pose": [
+      -0.7566335929374569,
+      0.36423279940608916,
+      0.0,
+      0.21715272455283224
+    ],
+    "final_pose": [
+      -0.7566335929374569,
+      0.36423279940608916,
+      0.0,
+      0.21715272455283224
+    ],
+    "prediction_confidence": 0.3332786011816899,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 13,
+      "avg_movement": 0.0794951856925085,
+      "movement_std": 0.06484782849752171,
+      "avg_confidence": 0.9406286830577852,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000013.pcd",
+    "scan_index": 13,
+    "predicted_pose": [
+      -1.0002672439701996,
+      0.4812447134701131,
+      0.0,
+      0.20084514167921502
+    ],
+    "observed_pose": [
+      -0.8149924510090533,
+      0.43190863759184894,
+      0.0,
+      0.2842612899245694
+    ],
+    "final_pose": [
+      -0.8149924510090533,
+      0.43190863759184894,
+      0.0,
+      0.2842612899245694
+    ],
+    "prediction_confidence": 0.3331207879529502,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 14,
+      "avg_movement": 0.08025426108012769,
+      "movement_std": 0.062359242618510786,
+      "avg_confidence": 0.937443515586568,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000014.pcd",
+    "scan_index": 14,
+    "predicted_pose": [
+      -0.863366456909504,
+      0.49871927557114676,
+      0.0,
+      0.3701470691992679
+    ],
+    "observed_pose": [
+      -0.9205232679955506,
+      0.4196902453926187,
+      0.0,
+      0.2818177924452195
+    ],
+    "final_pose": [
+      -0.9205232679955506,
+      0.4196902453926187,
+      0.0,
+      0.2818177924452195
+    ],
+    "prediction_confidence": 0.3331853721543418,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 15,
+      "avg_movement": 0.08211008436087916,
+      "movement_std": 0.06046226650233586,
+      "avg_confidence": 0.9363909868264249,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000015.pcd",
+    "scan_index": 15,
+    "predicted_pose": [
+      -0.906122792938675,
+      0.4002331202969476,
+      0.0,
+      0.3630780779795119
+    ],
+    "observed_pose": [
+      -1.06043315787981,
+      0.4228000257192147,
+      0.0,
+      0.19637066879883736
+    ],
+    "final_pose": [
+      -1.06043315787981,
+      0.4228000257192147,
+      0.0,
+      0.19637066879883736
+    ],
+    "prediction_confidence": 0.333175972416365,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 16,
+      "avg_movement": 0.08596570848322058,
+      "movement_std": 0.060167225428620644,
+      "avg_confidence": 0.9345359726189916,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000016.pcd",
+    "scan_index": 16,
+    "predicted_pose": [
+      -1.201340215380939,
+      0.3870650974314659,
+      0.0,
+      0.09942744181061015
+    ],
+    "observed_pose": [
+      -1.0386431299807406,
+      0.3775775689867129,
+      0.0,
+      0.13602615076105584
+    ],
+    "final_pose": [
+      -1.0386431299807406,
+      0.3775775689867129,
+      0.0,
+      0.13602615076105584
+    ],
+    "prediction_confidence": 0.33328113587915004,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 17,
+      "avg_movement": 0.08373024955292838,
+      "movement_std": 0.058896504367641794,
+      "avg_confidence": 0.9326810904778394,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000017.pcd",
+    "scan_index": 17,
+    "predicted_pose": [
+      -1.0981237047259347,
+      0.30328192495053297,
+      0.0,
+      -0.020872301809317286
+    ],
+    "observed_pose": [
+      -1.1461656917190344,
+      0.39681995000260806,
+      0.0,
+      0.13373127438242607
+    ],
+    "final_pose": [
+      -1.1461656917190344,
+      0.39681995000260806,
+      0.0,
+      0.13373127438242607
+    ],
+    "prediction_confidence": 0.3331908902451643,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 18,
+      "avg_movement": 0.0852302826972198,
+      "movement_std": 0.057452178924369976,
+      "avg_confidence": 0.9314960135716484,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000018.pcd",
+    "scan_index": 18,
+    "predicted_pose": [
+      -1.1514332285985152,
+      0.38336692474886075,
+      0.0,
+      0.08508585733690707
+    ],
+    "observed_pose": [
+      -1.279399515098705,
+      0.4529970425429612,
+      0.0,
+      0.16503820986901602
+    ],
+    "final_pose": [
+      -1.279399515098705,
+      0.4529970425429612,
+      0.0,
+      0.16503820986901602
+    ],
+    "prediction_confidence": 0.33317672890861505,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 19,
+      "avg_movement": 0.08852820793402827,
+      "movement_std": 0.05746542429010969,
+      "avg_confidence": 0.9294118946756067,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000019.pcd",
+    "scan_index": 19,
+    "predicted_pose": [
+      -1.3880586892625195,
+      0.5114667531920023,
+      0.0,
+      0.23951613134321334
+    ],
+    "observed_pose": [
+      -1.3712270750499158,
+      0.5202038235129527,
+      0.0,
+      0.26914812524921405
+    ],
+    "final_pose": [
+      -1.3712270750499158,
+      0.5202038235129527,
+      0.0,
+      0.26914812524921405
+    ],
+    "prediction_confidence": 0.33318223319127477,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.08985798131576296,
+      "movement_std": 0.05621654909813493,
+      "avg_confidence": 0.9278964583500743,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000020.pcd",
+    "scan_index": 20,
+    "predicted_pose": [
+      -1.5643501984540626,
+      0.6460443963607293,
+      0.0,
+      0.4136883167653135
+    ],
+    "observed_pose": [
+      -1.5000856518006243,
+      0.6013679544202989,
+      0.0,
+      0.35929631040118015
+    ],
+    "final_pose": [
+      -1.5000856518006243,
+      0.6013679544202989,
+      0.0,
+      0.35929631040118015
+    ],
+    "prediction_confidence": 0.33326002850015646,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.09612386134192046,
+      "movement_std": 0.05619123156883716,
+      "avg_confidence": 0.9255469176969171,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000021.pcd",
+    "scan_index": 21,
+    "predicted_pose": [
+      -1.6121210241191823,
+      0.7085192553126314,
+      0.0,
+      0.5160797166540892
+    ],
+    "observed_pose": [
+      -1.6306073393464628,
+      0.6108092854598579,
+      0.0,
+      0.3629722455272121
+    ],
+    "final_pose": [
+      -1.6306073393464628,
+      0.6108092854598579,
+      0.0,
+      0.3629722455272121
+    ],
+    "prediction_confidence": 0.3333148210688011,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.10139643608930203,
+      "movement_std": 0.054477334734860765,
+      "avg_confidence": 0.9231410986448084,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000022.pcd",
+    "scan_index": 22,
+    "predicted_pose": [
+      -1.7581712567558985,
+      0.6495873994931706,
+      0.0,
+      0.4192473804576569
+    ],
+    "observed_pose": [
+      -1.7785954480449713,
+      0.6462832219391212,
+      0.0,
+      0.34517203378116534
+    ],
+    "final_pose": [
+      -1.7785954480449713,
+      0.6462832219391212,
+      0.0,
+      0.34517203378116534
+    ],
+    "prediction_confidence": 0.333250950172746,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.10831656772655773,
+      "movement_std": 0.05208530772956401,
+      "avg_confidence": 0.9212929477317562,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000023.pcd",
+    "scan_index": 23,
+    "predicted_pose": [
+      -1.9463067490697215,
+      0.6418913673721839,
+      0.0,
+      0.2714066632570347
+    ],
+    "observed_pose": [
+      -1.897869455846762,
+      0.6631597688176861,
+      0.0,
+      0.3486113667838814
+    ],
+    "final_pose": [
+      -1.897869455846762,
+      0.6631597688176861,
+      0.0,
+      0.3486113667838814
+    ],
+    "prediction_confidence": 0.33331451729231454,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.11326803745180392,
+      "movement_std": 0.04840262658891713,
+      "avg_confidence": 0.9174260663293087,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000024.pcd",
+    "scan_index": 24,
+    "predicted_pose": [
+      -2.0343640029965755,
+      0.6563416769595409,
+      0.0,
+      0.2830337526980369
+    ],
+    "observed_pose": [
+      -2.0279299745632073,
+      0.7076714852241779,
+      0.0,
+      0.33142729167236823
+    ],
+    "final_pose": [
+      -2.0279299745632073,
+      0.7076714852241779,
+      0.0,
+      0.33142729167236823
+    ],
+    "prediction_confidence": 0.3332914157399909,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.11562179628677476,
+      "movement_std": 0.04843475213583819,
+      "avg_confidence": 0.9144857090526152,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000025.pcd",
+    "scan_index": 25,
+    "predicted_pose": [
+      -2.1490845832502927,
+      0.751117297228488,
+      0.0,
+      0.3182259369097115
+    ],
+    "observed_pose": [
+      -2.1774483775007,
+      0.7610891094920393,
+      0.0,
+      0.3743181901639656
+    ],
+    "final_pose": [
+      -2.1774483775007,
+      0.7610891094920393,
+      0.0,
+      0.3743181901639656
+    ],
+    "prediction_confidence": 0.3333260043734656,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.12040627147776103,
+      "movement_std": 0.047968977735127614,
+      "avg_confidence": 0.9114802911162949,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000026.pcd",
+    "scan_index": 26,
+    "predicted_pose": [
+      -2.3123186496047454,
+      0.8181482201439645,
+      0.0,
+      0.4055637759156609
+    ],
+    "observed_pose": [
+      -2.3324544457183563,
+      0.8263002945592424,
+      0.0,
+      0.4572575098796838
+    ],
+    "final_pose": [
+      -2.3324544457183563,
+      0.8263002945592424,
+      0.0,
+      0.4572575098796838
+    ],
+    "prediction_confidence": 0.33331673400151357,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.1245698358165812,
+      "movement_std": 0.048497509000692725,
+      "avg_confidence": 0.908704256856943,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000027.pcd",
+    "scan_index": 27,
+    "predicted_pose": [
+      -2.5045096179614026,
+      0.9110774139001551,
+      0.0,
+      0.5558580846439062
+    ],
+    "observed_pose": [
+      -2.4557866211634725,
+      0.8552333283282371,
+      0.0,
+      0.608140128735886
+    ],
+    "final_pose": [
+      -2.4557866211634725,
+      0.8552333283282371,
+      0.0,
+      0.608140128735886
+    ],
+    "prediction_confidence": 0.33332100121222313,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.12832704934342448,
+      "movement_std": 0.04566766524076905,
+      "avg_confidence": 0.9025316170802402,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000028.pcd",
+    "scan_index": 28,
+    "predicted_pose": [
+      -2.6004209048638245,
+      0.9038416735533001,
+      0.0,
+      0.8055081246603298
+    ],
+    "observed_pose": [
+      -2.5795885527625058,
+      0.880496483751756,
+      0.0,
+      0.74200889828834
+    ],
+    "final_pose": [
+      -2.5795885527625058,
+      0.880496483751756,
+      0.0,
+      0.74200889828834
+    ],
+    "prediction_confidence": 0.33332112478185777,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.13278043393509018,
+      "movement_std": 0.04088157090868548,
+      "avg_confidence": 0.8960478560260136,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000029.pcd",
+    "scan_index": 29,
+    "predicted_pose": [
+      -2.687584796635327,
+      0.8918028605450503,
+      0.0,
+      0.9440754699203068
+    ],
+    "observed_pose": [
+      -2.6980546980342757,
+      0.8840533492695362,
+      0.0,
+      0.8572990518581779
+    ],
+    "final_pose": [
+      -2.6980546980342757,
+      0.8840533492695362,
+      0.0,
+      0.8572990518581779
+    ],
+    "prediction_confidence": 0.3333178759199633,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.13230517834860495,
+      "movement_std": 0.04099195813247506,
+      "avg_confidence": 0.8856843528610746,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000030.pcd",
+    "scan_index": 30,
+    "predicted_pose": [
+      -2.798865518600327,
+      0.8679826549822529,
+      0.0,
+      1.0068625985265804
+    ],
+    "observed_pose": [
+      -2.825805152650538,
+      0.8737927747802957,
+      0.0,
+      0.9382178134630988
+    ],
+    "final_pose": [
+      -2.825805152650538,
+      0.8737927747802957,
+      0.0,
+      0.9382178134630988
+    ],
+    "prediction_confidence": 0.333311205126324,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.12511249945135067,
+      "movement_std": 0.026556569737633,
+      "avg_confidence": 0.8827189792030108,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000031.pcd",
+    "scan_index": 31,
+    "predicted_pose": [
+      -2.9487791272938937,
+      0.8510699873417304,
+      0.0,
+      1.0046553742891846
+    ],
+    "observed_pose": [
+      -2.987838299242254,
+      0.8679836203270778,
+      0.0,
+      1.0241841032983605
+    ],
+    "final_pose": [
+      -2.987838299242254,
+      0.8679836203270778,
+      0.0,
+      1.0241841032983605
+    ],
+    "prediction_confidence": 0.333331852242024,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.12817957418327056,
+      "movement_std": 0.027280538547243195,
+      "avg_confidence": 0.8809752892213456,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000032.pcd",
+    "scan_index": 32,
+    "predicted_pose": [
+      -3.145384021249218,
+      0.8399699439189998,
+      0.0,
+      1.0773708827190331
+    ],
+    "observed_pose": [
+      -3.1395490906375074,
+      0.8648818494653004,
+      0.0,
+      1.1311839358052427
+    ],
+    "final_pose": [
+      -3.1395490906375074,
+      0.8648818494653004,
+      0.0,
+      1.1311839358052427
+    ],
+    "prediction_confidence": 0.3333260482238206,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.1314626968490853,
+      "movement_std": 0.026141343166316052,
+      "avg_confidence": 0.8768785666730927,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000033.pcd",
+    "scan_index": 33,
+    "predicted_pose": [
+      -3.3194645538640173,
+      0.8556189899026356,
+      0.0,
+      1.2163827415370543
+    ],
+    "observed_pose": [
+      -3.2485649638203324,
+      0.8274578728149069,
+      0.0,
+      1.225252484225784
+    ],
+    "final_pose": [
+      -3.2485649638203324,
+      0.8274578728149069,
+      0.0,
+      1.225252484225784
+    ],
+    "prediction_confidence": 0.3333232112255116,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.13193768899773808,
+      "movement_std": 0.02575782929647045,
+      "avg_confidence": 0.8749357540889404,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000034.pcd",
+    "scan_index": 34,
+    "predicted_pose": [
+      -3.380496022713036,
+      0.8011936194987137,
+      0.0,
+      1.3375559320047705
+    ],
+    "observed_pose": [
+      -3.334033121703394,
+      0.7619097845658835,
+      0.0,
+      1.3247082614439092
+    ],
+    "final_pose": [
+      -3.334033121703394,
+      0.7619097845658835,
+      0.0,
+      1.3247082614439092
+    ],
+    "prediction_confidence": 0.3333148714031727,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.1302411181338011,
+      "movement_std": 0.026231813826844138,
+      "avg_confidence": 0.8713049378981823,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000035.pcd",
+    "scan_index": 35,
+    "predicted_pose": [
+      -3.392400458601071,
+      0.6830176253182803,
+      0.0,
+      1.427947948053685
+    ],
+    "observed_pose": [
+      -3.428701673128583,
+      0.7720164872184883,
+      0.0,
+      1.4785700505875918
+    ],
+    "final_pose": [
+      -3.428701673128583,
+      0.7720164872184883,
+      0.0,
+      1.4785700505875918
+    ],
+    "prediction_confidence": 0.3333279845856521,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.13260996798316893,
+      "movement_std": 0.020245879211169302,
+      "avg_confidence": 0.866414124014287,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000036.pcd",
+    "scan_index": 36,
+    "predicted_pose": [
+      -3.48178456573803,
+      0.7295244412584194,
+      0.0,
+      1.6170242041729093
+    ],
+    "observed_pose": [
+      -3.5175143423448545,
+      0.8316545991255693,
+      0.0,
+      1.5698119511453148
+    ],
+    "final_pose": [
+      -3.5175143423448545,
+      0.8316545991255693,
+      0.0,
+      1.5698119511453148
+    ],
+    "prediction_confidence": 0.33328701392771215,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.1324914239985833,
+      "movement_std": 0.0203885136677696,
+      "avg_confidence": 0.859707483112658,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000037.pcd",
+    "scan_index": 37,
+    "predicted_pose": [
+      -3.59888979494833,
+      0.9099048367635539,
+      0.0,
+      1.709453773854115
+    ],
+    "observed_pose": [
+      -3.5723026282119617,
+      0.8739964147386413,
+      0.0,
+      1.5740464928141957
+    ],
+    "final_pose": [
+      -3.5723026282119617,
+      0.8739964147386413,
+      0.0,
+      1.5740464928141957
+    ],
+    "prediction_confidence": 0.3332941240819615,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.1285256350185281,
+      "movement_std": 0.024552027947030486,
+      "avg_confidence": 0.8597238768535771,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000038.pcd",
+    "scan_index": 38,
+    "predicted_pose": [
+      -3.6359024975488303,
+      0.9949092097041784,
+      0.0,
+      1.5907541802646052
+    ],
+    "observed_pose": [
+      -3.5817991511688816,
+      0.8659329097910378,
+      0.0,
+      1.5774383193055679
+    ],
+    "final_pose": [
+      -3.5817991511688816,
+      0.8659329097910378,
+      0.0,
+      1.5774383193055679
+    ],
+    "prediction_confidence": 0.33326223719271647,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.12319217133299074,
+      "movement_std": 0.03566468040519801,
+      "avg_confidence": 0.8617452268664698,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000039.pcd",
+    "scan_index": 39,
+    "predicted_pose": [
+      -3.576425867372992,
+      0.8872915367318491,
+      0.0,
+      1.491222340347561
+    ],
+    "observed_pose": [
+      -3.5757589353028107,
+      0.8700922776742087,
+      0.0,
+      1.5769487952009917
+    ],
+    "final_pose": [
+      -3.5757589353028107,
+      0.8700922776742087,
+      0.0,
+      1.5769487952009917
+    ],
+    "prediction_confidence": 0.3332948707708123,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.11556291382718677,
+      "movement_std": 0.04330917687187182,
+      "avg_confidence": 0.863185902211591,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000040.pcd",
+    "scan_index": 40,
+    "predicted_pose": [
+      -3.5252363794457287,
+      0.8311861008784143,
+      0.0,
+      1.5245254967757944
+    ],
+    "observed_pose": [
+      -3.5870549769257742,
+      0.8809991534892773,
+      0.0,
+      1.579361507843453
+    ],
+    "final_pose": [
+      -3.5870549769257742,
+      0.8809991534892773,
+      0.0,
+      1.579361507843453
+    ],
+    "prediction_confidence": 0.3333093119267752,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.10950183656169261,
+      "movement_std": 0.048492041704593286,
+      "avg_confidence": 0.8640756984107,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000041.pcd",
+    "scan_index": 41,
+    "predicted_pose": [
+      -3.5583866660110233,
+      0.8676470590800254,
+      0.0,
+      1.5783593336724306
+    ],
+    "observed_pose": [
+      -3.5950599753105608,
+      0.8737451070756427,
+      0.0,
+      1.5792731417238532
+    ],
+    "final_pose": [
+      -3.5950599753105608,
+      0.8737451070756427,
+      0.0,
+      1.5792731417238532
+    ],
+    "prediction_confidence": 0.33331582112116703,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.10206091085617226,
+      "movement_std": 0.0520860299454992,
+      "avg_confidence": 0.8636443568707028,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000042.pcd",
+    "scan_index": 42,
+    "predicted_pose": [
+      -3.604802893542609,
+      0.8815054735653515,
+      0.0,
+      1.5790975230473194
+    ],
+    "observed_pose": [
+      -3.5882539622219776,
+      0.88811298277898,
+      0.0,
+      1.5807799077327278
+    ],
+    "final_pose": [
+      -3.5882539622219776,
+      0.88811298277898,
+      0.0,
+      1.5807799077327278
+    ],
+    "prediction_confidence": 0.33332986866447617,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.09655755816590392,
+      "movement_std": 0.0552773242362595,
+      "avg_confidence": 0.8647230071660037,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000043.pcd",
+    "scan_index": 43,
+    "predicted_pose": [
+      -3.592837279978582,
+      0.8913084254808396,
+      0.0,
+      1.582208342106893
+    ],
+    "observed_pose": [
+      -3.566476419136629,
+      0.8777520500932485,
+      0.0,
+      1.5765150770986138
+    ],
+    "final_pose": [
+      -3.566476419136629,
+      0.8777520500932485,
+      0.0,
+      1.5765150770986138
+    ],
+    "prediction_confidence": 0.3333291577870301,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.09059177523843435,
+      "movement_std": 0.05664013895059323,
+      "avg_confidence": 0.8648296377891157,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000044.pcd",
+    "scan_index": 44,
+    "predicted_pose": [
+      -3.5368319492237044,
+      0.8744134790182917,
+      0.0,
+      1.5728609978129457
+    ],
+    "observed_pose": [
+      -3.5711002936113734,
+      0.8802492707222535,
+      0.0,
+      1.5816483004068274
+    ],
+    "final_pose": [
+      -3.5711002936113734,
+      0.8802492707222535,
+      0.0,
+      1.5816483004068274
+    ],
+    "prediction_confidence": 0.333330472603458,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.08251183234265003,
+      "movement_std": 0.05728373536731268,
+      "avg_confidence": 0.8667084566469884,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000045.pcd",
+    "scan_index": 45,
+    "predicted_pose": [
+      -3.5525743596920165,
+      0.8783107289250521,
+      0.0,
+      1.5823960342178662
+    ],
+    "observed_pose": [
+      -3.5765061548680617,
+      0.8706221667359433,
+      0.0,
+      1.5863449176994249
+    ],
+    "final_pose": [
+      -3.5765061548680617,
+      0.8706221667359433,
+      0.0,
+      1.5863449176994249
+    ],
+    "prediction_confidence": 0.3333263074513817,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.07424216368010253,
+      "movement_std": 0.055639532331867,
+      "avg_confidence": 0.8670177670941653,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000046.pcd",
+    "scan_index": 46,
+    "predicted_pose": [
+      -3.588613551306356,
+      0.8562975346280981,
+      0.0,
+      1.5933047305747496
+    ],
+    "observed_pose": [
+      -3.586081601820391,
+      0.8697488389478353,
+      0.0,
+      1.5848548065377375
+    ],
+    "final_pose": [
+      -3.586081601820391,
+      0.8697488389478353,
+      0.0,
+      1.5848548065377375
+    ],
+    "prediction_confidence": 0.3333294994641059,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.06808083224576027,
+      "movement_std": 0.05597225975082192,
+      "avg_confidence": 0.8693532512786699,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000047.pcd",
+    "scan_index": 47,
+    "predicted_pose": [
+      -3.6111331742388155,
+      0.8675650531397392,
+      0.0,
+      1.589978909822933
+    ],
+    "observed_pose": [
+      -3.5688247274768483,
+      0.8746608720808785,
+      0.0,
+      1.5872724334138713
+    ],
+    "final_pose": [
+      -3.5688247274768483,
+      0.8746608720808785,
+      0.0,
+      1.5872724334138713
+    ],
+    "prediction_confidence": 0.33333071771942396,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.06237499488226319,
+      "movement_std": 0.055262341219528006,
+      "avg_confidence": 0.8740842281526723,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000048.pcd",
+    "scan_index": 48,
+    "predicted_pose": [
+      -3.5599052608790305,
+      0.8763935039794234,
+      0.0,
+      1.5849345120004992
+    ],
+    "observed_pose": [
+      -3.5784642663659136,
+      0.8728797090211698,
+      0.0,
+      1.5872297852148616
+    ],
+    "final_pose": [
+      -3.5784642663659136,
+      0.8728797090211698,
+      0.0,
+      1.5872297852148616
+    ],
+    "prediction_confidence": 0.333330248378842,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.05665305735991077,
+      "movement_std": 0.05477906133617984,
+      "avg_confidence": 0.8750494965909261,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000049.pcd",
+    "scan_index": 49,
+    "predicted_pose": [
+      -3.56912688124832,
+      0.8811606674716237,
+      0.0,
+      1.5863117977810022
+    ],
+    "observed_pose": [
+      -3.576350340335337,
+      0.8684898676880414,
+      0.0,
+      1.5896792258969938
+    ],
+    "final_pose": [
+      -3.576350340335337,
+      0.8684898676880414,
+      0.0,
+      1.5896792258969938
+    ],
+    "prediction_confidence": 0.33332923055036506,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.05016413448319063,
+      "movement_std": 0.053203625162915526,
+      "avg_confidence": 0.8848532920988127,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000050.pcd",
+    "scan_index": 50,
+    "predicted_pose": [
+      -3.576625562450731,
+      0.8640770608466359,
+      0.0,
+      1.592498726580504
+    ],
+    "observed_pose": [
+      -3.5854035691016475,
+      0.8698804156034392,
+      0.0,
+      1.5920132917991212
+    ],
+    "final_pose": [
+      -3.5854035691016475,
+      0.8698804156034392,
+      0.0,
+      1.5920132917991212
+    ],
+    "prediction_confidence": 0.3333298301125284,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.04211266875378319,
+      "movement_std": 0.04684442529464401,
+      "avg_confidence": 0.8876534618626721,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000051.pcd",
+    "scan_index": 51,
+    "predicted_pose": [
+      -3.601309135896357,
+      0.8645337609894279,
+      0.0,
+      1.5943895209408487
+    ],
+    "observed_pose": [
+      -3.62357397800104,
+      0.8613881878429214,
+      0.0,
+      1.5951564144188637
+    ],
+    "final_pose": [
+      -3.62357397800104,
+      0.8613881878429214,
+      0.0,
+      1.5951564144188637
+    ],
+    "prediction_confidence": 0.3333311980648942,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.0361843101706907,
+      "movement_std": 0.03907899897431766,
+      "avg_confidence": 0.890569133036775,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000052.pcd",
+    "scan_index": 52,
+    "predicted_pose": [
+      -3.6555691648001645,
+      0.8567755418026509,
+      0.0,
+      1.5995637541557644
+    ],
+    "observed_pose": [
+      -3.6217847209352607,
+      0.8661145717141083,
+      0.0,
+      1.589315409252617
+    ],
+    "final_pose": [
+      -3.6217847209352607,
+      0.8661145717141083,
+      0.0,
+      1.589315409252617
+    ],
+    "prediction_confidence": 0.3333293019765084,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.030383946383973646,
+      "movement_std": 0.034862891261935106,
+      "avg_confidence": 0.8951477161582704,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000053.pcd",
+    "scan_index": 53,
+    "predicted_pose": [
+      -3.6521579980204995,
+      0.8657358014025206,
+      0.0,
+      1.585687438806135
+    ],
+    "observed_pose": [
+      -3.6398248844542413,
+      0.8780234688047897,
+      0.0,
+      1.5877890511042827
+    ],
+    "final_pose": [
+      -3.6398248844542413,
+      0.8780234688047897,
+      0.0,
+      1.5877890511042827
+    ],
+    "prediction_confidence": 0.3333243089618135,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.025852726049859973,
+      "movement_std": 0.029736127521760372,
+      "avg_confidence": 0.8965329301802545,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000054.pcd",
+    "scan_index": 54,
+    "predicted_pose": [
+      -3.6473936723570133,
+      0.8904973648250464,
+      0.0,
+      1.5804947209113414
+    ],
+    "observed_pose": [
+      -3.6350618092824294,
+      0.8839961794263531,
+      0.0,
+      1.5880633317832789
+    ],
+    "final_pose": [
+      -3.6350618092824294,
+      0.8839961794263531,
+      0.0,
+      1.5880633317832789
+    ],
+    "prediction_confidence": 0.3333267564792581,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.021243929695027707,
+      "movement_std": 0.02504596555466272,
+      "avg_confidence": 0.8998888520095678,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000055.pcd",
+    "scan_index": 55,
+    "predicted_pose": [
+      -3.6227812346205273,
+      0.9033968022524593,
+      0.0,
+      1.5851757962359627
+    ],
+    "observed_pose": [
+      -3.647056978538579,
+      0.8705983836564335,
+      0.0,
+      1.5880012574702145
+    ],
+    "final_pose": [
+      -3.647056978538579,
+      0.8705983836564335,
+      0.0,
+      1.5880012574702145
+    ],
+    "prediction_confidence": 0.33332817989056795,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.016559952417424636,
+      "movement_std": 0.014800561518749998,
+      "avg_confidence": 0.9056630390092432,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000056.pcd",
+    "scan_index": 56,
+    "predicted_pose": [
+      -3.653916208045515,
+      0.8618224852150361,
+      0.0,
+      1.5916756256627087
+    ],
+    "observed_pose": [
+      -3.6415940729092773,
+      0.863481641696546,
+      0.0,
+      1.5859835573221404
+    ],
+    "final_pose": [
+      -3.6415940729092773,
+      0.863481641696546,
+      0.0,
+      1.5859835573221404
+    ],
+    "prediction_confidence": 0.33332955269639625,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.01338778142006638,
+      "movement_std": 0.00812069760455789,
+      "avg_confidence": 0.910552310330939,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000057.pcd",
+    "scan_index": 57,
+    "predicted_pose": [
+      -3.6359957856993628,
+      0.8399246732582915,
+      0.0,
+      1.5852355526422315
+    ],
+    "observed_pose": [
+      -3.628915467339885,
+      0.8627369938793569,
+      0.0,
+      1.5896200288336655
+    ],
+    "final_pose": [
+      -3.628915467339885,
+      0.8627369938793569,
+      0.0,
+      1.5896200288336655
+    ],
+    "prediction_confidence": 0.3333306937374551,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.013400537322346391,
+      "movement_std": 0.008119417489499282,
+      "avg_confidence": 0.9109036883991285,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000058.pcd",
+    "scan_index": 58,
+    "predicted_pose": [
+      -3.617260103484016,
+      0.8528642556847575,
+      0.0,
+      1.5907504775170302
+    ],
+    "observed_pose": [
+      -3.6313149226463888,
+      0.8669778527775543,
+      0.0,
+      1.589784020317419
+    ],
+    "final_pose": [
+      -3.6313149226463888,
+      0.8669778527775543,
+      0.0,
+      1.589784020317419
+    ],
+    "prediction_confidence": 0.33332964180422975,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.013271000955859924,
+      "movement_std": 0.00823399671790552,
+      "avg_confidence": 0.910696070572555,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000059.pcd",
+    "scan_index": 59,
+    "predicted_pose": [
+      -3.6158945008823884,
+      0.8778134991043135,
+      0.0,
+      1.5928616353014806
+    ],
+    "observed_pose": [
+      -3.634948245553689,
+      0.8545431408581964,
+      0.0,
+      1.5901194456974486
+    ],
+    "final_pose": [
+      -3.634948245553689,
+      0.8545431408581964,
+      0.0,
+      1.5901194456974486
+    ],
+    "prediction_confidence": 0.3333308363225553,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.013126390978318619,
+      "movement_std": 0.008214131390067157,
+      "avg_confidence": 0.9097708291240533,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000060.pcd",
+    "scan_index": 60,
+    "predicted_pose": [
+      -3.6430522115023134,
+      0.8522581036172002,
+      0.0,
+      1.5917295992773206
+    ],
+    "observed_pose": [
+      -3.6238879152618244,
+      0.8684978827560141,
+      0.0,
+      1.5877500433586267
+    ],
+    "final_pose": [
+      -3.6238879152618244,
+      0.8684978827560141,
+      0.0,
+      1.5877500433586267
+    ],
+    "prediction_confidence": 0.3333313305881661,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.013494996615368604,
+      "movement_std": 0.008258611446086882,
+      "avg_confidence": 0.9095086257371771,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000061.pcd",
+    "scan_index": 61,
+    "predicted_pose": [
+      -3.62555347269581,
+      0.8701606954290957,
+      0.0,
+      1.5839409788846779
+    ],
+    "observed_pose": [
+      -3.619900514624719,
+      0.8663993858563125,
+      0.0,
+      1.588985346170306
+    ],
+    "final_pose": [
+      -3.619900514624719,
+      0.8663993858563125,
+      0.0,
+      1.588985346170306
+    ],
+    "prediction_confidence": 0.33332899941788946,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.01289539328520401,
+      "movement_std": 0.008473132558509549,
+      "avg_confidence": 0.9114775639250119,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000062.pcd",
+    "scan_index": 62,
+    "predicted_pose": [
+      -3.6064226566976405,
+      0.8733398665158877,
+      0.0,
+      1.587979671658341
+    ],
+    "observed_pose": [
+      -3.621249182510592,
+      0.8640526044033744,
+      0.0,
+      1.5927897851599497
+    ],
+    "final_pose": [
+      -3.621249182510592,
+      0.8640526044033744,
+      0.0,
+      1.5927897851599497
+    ],
+    "prediction_confidence": 0.3333304315304635,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.011768557153659128,
+      "movement_std": 0.008328309016938974,
+      "avg_confidence": 0.9097058075179264,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000063.pcd",
+    "scan_index": 63,
+    "predicted_pose": [
+      -3.616958202565227,
+      0.8679572088728776,
+      0.0,
+      1.5966203233729919
+    ],
+    "observed_pose": [
+      -3.63018872757645,
+      0.8648226280898823,
+      0.0,
+      1.593319792613676
+    ],
+    "final_pose": [
+      -3.63018872757645,
+      0.8648226280898823,
+      0.0,
+      1.593319792613676
+    ],
+    "prediction_confidence": 0.333329533598211,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.01196421629434726,
+      "movement_std": 0.008215898643433915,
+      "avg_confidence": 0.9115678432759559,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000064.pcd",
+    "scan_index": 64,
+    "predicted_pose": [
+      -3.645055496112953,
+      0.855188376738047,
+      0.0,
+      1.5982089911716675
+    ],
+    "observed_pose": [
+      -3.621647265452473,
+      0.8774903135750837,
+      0.0,
+      1.5914384350084467
+    ],
+    "final_pose": [
+      -3.621647265452473,
+      0.8774903135750837,
+      0.0,
+      1.5914384350084467
+    ],
+    "prediction_confidence": 0.33333234940630485,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.012187230864521344,
+      "movement_std": 0.008245269189071555,
+      "avg_confidence": 0.911873366907306,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000065.pcd",
+    "scan_index": 65,
+    "predicted_pose": [
+      -3.6243581721882414,
+      0.8894995790522722,
+      0.0,
+      1.5896161732002358
+    ],
+    "observed_pose": [
+      -3.6097973880585923,
+      0.8803663089174247,
+      0.0,
+      1.5837389663467878
+    ],
+    "final_pose": [
+      -3.6097973880585923,
+      0.8803663089174247,
+      0.0,
+      1.5837389663467878
+    ],
+    "prediction_confidence": 0.33333153279489786,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.012322951876615905,
+      "movement_std": 0.008223008427400452,
+      "avg_confidence": 0.9131219474091571,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000066.pcd",
+    "scan_index": 66,
+    "predicted_pose": [
+      -3.5926751157127845,
+      0.894209322451222,
+      0.0,
+      1.5737916419394917
+    ],
+    "observed_pose": [
+      -3.6138864266328956,
+      0.8616874460760254,
+      0.0,
+      1.5976349844061457
+    ],
+    "final_pose": [
+      -3.6138864266328956,
+      0.8616874460760254,
+      0.0,
+      1.5976349844061457
+    ],
+    "prediction_confidence": 0.33333189522134826,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.0123849966345252,
+      "movement_std": 0.008269490155650214,
+      "avg_confidence": 0.9129293704621098,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000067.pcd",
+    "scan_index": 67,
+    "predicted_pose": [
+      -3.60231402853772,
+      0.8485831378648737,
+      0.0,
+      1.6022742194520685
+    ],
+    "observed_pose": [
+      -3.656435495563696,
+      0.861458384424089,
+      0.0,
+      1.7179223101896663
+    ],
+    "final_pose": [
+      -3.656435495563696,
+      0.861458384424089,
+      0.0,
+      1.7179223101896663
+    ],
+    "prediction_confidence": 0.33332674278897695,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.014108521315872036,
+      "movement_std": 0.010627929827511706,
+      "avg_confidence": 0.9062114663660669,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000068.pcd",
+    "scan_index": 68,
+    "predicted_pose": [
+      -3.698870858842165,
+      0.8387314335382998,
+      0.0,
+      1.8263977998271042
+    ],
+    "observed_pose": [
+      -3.710860126376211,
+      0.874413684122831,
+      0.0,
+      1.8675435076242688
+    ],
+    "final_pose": [
+      -3.710860126376211,
+      0.874413684122831,
+      0.0,
+      1.8675435076242688
+    ],
+    "prediction_confidence": 0.33329780466191294,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.016796575210600368,
+      "movement_std": 0.013905373929959422,
+      "avg_confidence": 0.9025868061023218,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000069.pcd",
+    "scan_index": 69,
+    "predicted_pose": [
+      -3.79554901260719,
+      0.8828690773548714,
+      0.0,
+      2.0880900073957642
+    ],
+    "observed_pose": [
+      -3.7460699834395492,
+      0.8963876563002683,
+      0.0,
+      1.9439025843432252
+    ],
+    "final_pose": [
+      -3.7460699834395492,
+      0.8963876563002683,
+      0.0,
+      1.9439025843432252
+    ],
+    "prediction_confidence": 0.3333207493127846,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.018498927413459293,
+      "movement_std": 0.014816246089245713,
+      "avg_confidence": 0.896783536426107,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000070.pcd",
+    "scan_index": 70,
+    "predicted_pose": [
+      -3.815324150595647,
+      0.9355383915060509,
+      0.0,
+      2.1163491928304596
+    ],
+    "observed_pose": [
+      -3.790270680641001,
+      0.9081630467172882,
+      0.0,
+      2.07511461178892
+    ],
+    "final_pose": [
+      -3.790270680641001,
+      0.9081630467172882,
+      0.0,
+      2.07511461178892
+    ],
+    "prediction_confidence": 0.3332538068205963,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.018848330273169164,
+      "movement_std": 0.015366110499761026,
+      "avg_confidence": 0.8920823344347062,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000071.pcd",
+    "scan_index": 71,
+    "predicted_pose": [
+      -3.8282696826943488,
+      0.9352999737840171,
+      0.0,
+      2.16899909965053
+    ],
+    "observed_pose": [
+      -3.855601735536166,
+      0.8663507022931847,
+      0.0,
+      2.258936652553116
+    ],
+    "final_pose": [
+      -3.855601735536166,
+      0.8663507022931847,
+      0.0,
+      2.258936652553116
+    ],
+    "prediction_confidence": 0.33331256688776895,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.022664743538683058,
+      "movement_std": 0.019824119485812586,
+      "avg_confidence": 0.8849502917291385,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000072.pcd",
+    "scan_index": 72,
+    "predicted_pose": [
+      -3.9105723587259487,
+      0.834547959268272,
+      0.0,
+      2.421191188660266
+    ],
+    "observed_pose": [
+      -3.9034072649715044,
+      0.8845340683585884,
+      0.0,
+      2.4156386569369914
+    ],
+    "final_pose": [
+      -3.9034072649715044,
+      0.8845340683585884,
+      0.0,
+      2.4156386569369914
+    ],
+    "prediction_confidence": 0.3332801354880695,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.02421897867894865,
+      "movement_std": 0.02081390530612753,
+      "avg_confidence": 0.8782718205019243,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000073.pcd",
+    "scan_index": 73,
+    "predicted_pose": [
+      -3.9727906181979065,
+      0.8524465023651667,
+      0.0,
+      2.6422424470240733
+    ],
+    "observed_pose": [
+      -3.9541021911805507,
+      0.8775453358971825,
+      0.0,
+      2.5572013774801143
+    ],
+    "final_pose": [
+      -3.9541021911805507,
+      0.8775453358971825,
+      0.0,
+      2.5572013774801143
+    ],
+    "prediction_confidence": 0.33329534148875367,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.026510294752392596,
+      "movement_std": 0.02125424168528421,
+      "avg_confidence": 0.8749046924785931,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000074.pcd",
+    "scan_index": 74,
+    "predicted_pose": [
+      -4.006382137375186,
+      0.8794358085301689,
+      0.0,
+      2.717085940954296
+    ],
+    "observed_pose": [
+      -4.001769736793716,
+      0.8805743291480634,
+      0.0,
+      2.6820851913790373
+    ],
+    "final_pose": [
+      -4.001769736793716,
+      0.8805743291480634,
+      0.0,
+      2.6820851913790373
+    ],
+    "prediction_confidence": 0.3333042814823629,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.02807770406943243,
+      "movement_std": 0.021661783798769534,
+      "avg_confidence": 0.8703829540547419,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000075.pcd",
+    "scan_index": 75,
+    "predicted_pose": [
+      -4.041261081314385,
+      0.902493944434105,
+      0.0,
+      2.784949194474156
+    ],
+    "observed_pose": [
+      -4.0689066017596645,
+      0.8363240152926491,
+      0.0,
+      2.8321370057121946
+    ],
+    "final_pose": [
+      -4.0689066017596645,
+      0.8363240152926491,
+      0.0,
+      2.8321370057121946
+    ],
+    "prediction_confidence": 0.3333221964427506,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.03183751027176844,
+      "movement_std": 0.024083473186613153,
+      "avg_confidence": 0.8654176971736776,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000076.pcd",
+    "scan_index": 76,
+    "predicted_pose": [
+      -4.1320668125617495,
+      0.7924369391697803,
+      0.0,
+      2.958064305667535
+    ],
+    "observed_pose": [
+      -4.097969585305926,
+      0.823181194298105,
+      0.0,
+      2.9866447710644692
+    ],
+    "final_pose": [
+      -4.097969585305926,
+      0.823181194298105,
+      0.0,
+      2.9866447710644692
+    ],
+    "prediction_confidence": 0.33332445662441784,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.032847831802728225,
+      "movement_std": 0.023658360342430136,
+      "avg_confidence": 0.8630178178504929,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000077.pcd",
+    "scan_index": 77,
+    "predicted_pose": [
+      -4.144512508390265,
+      0.7814599258949816,
+      0.0,
+      -3.1378305046926473
+    ],
+    "observed_pose": [
+      -4.155268825024012,
+      0.8120107600184039,
+      0.0,
+      3.1064106891146324
+    ],
+    "final_pose": [
+      -4.155268825024012,
+      0.8120107600184039,
+      0.0,
+      3.1064106891146324
+    ],
+    "prediction_confidence": 0.33331950217931045,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.03566390103346915,
+      "movement_std": 0.023343137838895918,
+      "avg_confidence": 0.8579508562276121,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000078.pcd",
+    "scan_index": 78,
+    "predicted_pose": [
+      -4.195758076267593,
+      0.7907427598484789,
+      0.0,
+      -3.0322859596823566
+    ],
+    "observed_pose": [
+      -4.145142206197511,
+      0.7991366174025022,
+      0.0,
+      -3.079323339591089
+    ],
+    "final_pose": [
+      -4.145142206197511,
+      0.7991366174025022,
+      0.0,
+      -3.079323339591089
+    ],
+    "prediction_confidence": 0.3333111476884764,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.03584416233856911,
+      "movement_std": 0.023179727826941006,
+      "avg_confidence": 0.8529591302155086,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000079.pcd",
+    "scan_index": 79,
+    "predicted_pose": [
+      -4.142598183931207,
+      0.806451144199268,
+      0.0,
+      -1.7389436095358464
+    ],
+    "observed_pose": [
+      -4.184795772737526,
+      0.7633040774909037,
+      0.0,
+      -2.9683872035684318
+    ],
+    "final_pose": [
+      -4.184795772737526,
+      0.7633040774909037,
+      0.0,
+      -2.9683872035684318
+    ],
+    "prediction_confidence": 0.232513778483851,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.03771988536325519,
+      "movement_std": 0.023085968175661088,
+      "avg_confidence": 0.848406759360512,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000080.pcd",
+    "scan_index": 80,
+    "predicted_pose": [
+      -4.190979540780579,
+      0.7322244240656299,
+      0.0,
+      -1.6377448697466652
+    ],
+    "observed_pose": [
+      -4.178824777182256,
+      0.7215516929254389,
+      0.0,
+      -2.8173616803081507
+    ],
+    "final_pose": [
+      -4.178824777182256,
+      0.7215516929254389,
+      0.0,
+      -2.8173616803081507
+    ],
+    "prediction_confidence": 0.22220532645902955,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.03970258472061769,
+      "movement_std": 0.021725904748111462,
+      "avg_confidence": 0.842389589837597,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000081.pcd",
+    "scan_index": 81,
+    "predicted_pose": [
+      -4.171391290139205,
+      0.6661860139116085,
+      0.0,
+      -2.6796519037118984
+    ],
+    "observed_pose": [
+      -4.176868023082568,
+      0.6715669621193832,
+      0.0,
+      -2.6812637867874716
+    ],
+    "final_pose": [
+      -4.176868023082568,
+      0.6715669621193832,
+      0.0,
+      -2.6812637867874716
+    ],
+    "prediction_confidence": 0.22220631072149624,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.04219291656276875,
+      "movement_std": 0.019984556143154,
+      "avg_confidence": 0.8333628631948471,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000082.pcd",
+    "scan_index": 82,
+    "predicted_pose": [
+      -4.176601794654497,
+      0.605901755391707,
+      0.0,
+      1.2598753638607292
+    ],
+    "observed_pose": [
+      -4.135098509434815,
+      0.6219233083597824,
+      0.0,
+      -2.5189423274338196
+    ],
+    "final_pose": [
+      -4.135098509434815,
+      0.6219233083597824,
+      0.0,
+      -2.5189423274338196
+    ],
+    "prediction_confidence": 0.2325870311580799,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.04513531560362026,
+      "movement_std": 0.01896646320316333,
+      "avg_confidence": 0.8271539356423784,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000083.pcd",
+    "scan_index": 83,
+    "predicted_pose": [
+      -4.076325355312851,
+      0.5637201246542165,
+      0.0,
+      -2.3467685267479474
+    ],
+    "observed_pose": [
+      -4.127282569601934,
+      0.59808206172504,
+      0.0,
+      -2.3662725409902765
+    ],
+    "final_pose": [
+      -4.127282569601934,
+      0.59808206172504,
+      0.0,
+      -2.3662725409902765
+    ],
+    "prediction_confidence": 0.3333269970331953,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.04565170537796603,
+      "movement_std": 0.018267207650839164,
+      "avg_confidence": 0.8175001316152736,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000084.pcd",
+    "scan_index": 84,
+    "predicted_pose": [
+      -4.091196804150591,
+      0.5643455721488445,
+      0.0,
+      -2.2048948583086867
+    ],
+    "observed_pose": [
+      -4.072846677827169,
+      0.5514794783780987,
+      0.0,
+      -2.2247678979206684
+    ],
+    "final_pose": [
+      -4.072846677827169,
+      0.5514794783780987,
+      0.0,
+      -2.2247678979206684
+    ],
+    "prediction_confidence": 0.3333223414565964,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.04878146815789224,
+      "movement_std": 0.0173371939293714,
+      "avg_confidence": 0.8115001159542375,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000085.pcd",
+    "scan_index": 85,
+    "predicted_pose": [
+      -4.024219265000865,
+      0.525115252876385,
+      0.0,
+      -2.071087090422554
+    ],
+    "observed_pose": [
+      -4.063495052048634,
+      0.5334061393926863,
+      0.0,
+      -2.0770945581401343
+    ],
+    "final_pose": [
+      -4.063495052048634,
+      0.5334061393926863,
+      0.0,
+      -2.0770945581401343
+    ],
+    "prediction_confidence": 0.3333192612509327,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.04884611097581633,
+      "movement_std": 0.017228431813349685,
+      "avg_confidence": 0.8007071360905089,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000086.pcd",
+    "scan_index": 86,
+    "predicted_pose": [
+      -4.037526746194639,
+      0.511451593782563,
+      0.0,
+      -1.9431450474722123
+    ],
+    "observed_pose": [
+      -4.032779897182521,
+      0.5030914382700951,
+      0.0,
+      -1.9444945250297843
+    ],
+    "final_pose": [
+      -4.032779897182521,
+      0.5030914382700951,
+      0.0,
+      -1.9444945250297843
+    ],
+    "prediction_confidence": 0.3333197850753639,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.04887799879257257,
+      "movement_std": 0.01721730545744795,
+      "avg_confidence": 0.7878803061202586,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000087.pcd",
+    "scan_index": 87,
+    "predicted_pose": [
+      -4.005416036566535,
+      0.4786857541645372,
+      0.0,
+      -1.8118776985832015
+    ],
+    "observed_pose": [
+      -4.010439345508257,
+      0.44680360395084984,
+      0.0,
+      -1.793680025822819
+    ],
+    "final_pose": [
+      -4.010439345508257,
+      0.44680360395084984,
+      0.0,
+      -1.793680025822819
+    ],
+    "prediction_confidence": 0.3333205326251794,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.04912083559103926,
+      "movement_std": 0.017347319083751374,
+      "avg_confidence": 0.7854726972402992,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000088.pcd",
+    "scan_index": 88,
+    "predicted_pose": [
+      -4.000656315340814,
+      0.4054831256055456,
+      0.0,
+      -1.6518511858107308
+    ],
+    "observed_pose": [
+      -3.9821761843344707,
+      0.40983393844342053,
+      0.0,
+      -1.6462354596679134
+    ],
+    "final_pose": [
+      -3.9821761843344707,
+      0.40983393844342053,
+      0.0,
+      -1.6462354596679134
+    ],
+    "prediction_confidence": 0.3333193019710568,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.04938565212106449,
+      "movement_std": 0.01726724353876044,
+      "avg_confidence": 0.7820153651672849,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000089.pcd",
+    "scan_index": 89,
+    "predicted_pose": [
+      -3.9473041895231518,
+      0.3460719419733283,
+      0.0,
+      -1.4962322112467348
+    ],
+    "observed_pose": [
+      -3.9581563391939265,
+      0.3758079822891245,
+      0.0,
+      -1.5050839812520191
+    ],
+    "final_pose": [
+      -3.9581563391939265,
+      0.3758079822891245,
+      0.0,
+      -1.5050839812520191
+    ],
+    "prediction_confidence": 0.3333276083953554,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.04917026349881233,
+      "movement_std": 0.017336730287328208,
+      "avg_confidence": 0.7764218888092429,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000090.pcd",
+    "scan_index": 90,
+    "predicted_pose": [
+      -3.934759027062133,
+      0.33720030563329945,
+      0.0,
+      -1.3537671654615895
+    ],
+    "observed_pose": [
+      -3.92083169136373,
+      0.3560508875686499,
+      0.0,
+      -1.3433732136478511
+    ],
+    "final_pose": [
+      -3.92083169136373,
+      0.3560508875686499,
+      0.0,
+      -1.3433732136478511
+    ],
+    "prediction_confidence": 0.3333285947765411,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.04731055807233132,
+      "movement_std": 0.016037501466808202,
+      "avg_confidence": 0.7604319925209595,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000091.pcd",
+    "scan_index": 91,
+    "predicted_pose": [
+      -3.8851604279916963,
+      0.3467971474603804,
+      0.0,
+      -1.19157211635598
+    ],
+    "observed_pose": [
+      -3.8617044769269286,
+      0.3433507180826545,
+      0.0,
+      -1.1975324231194084
+    ],
+    "final_pose": [
+      -3.8617044769269286,
+      0.3433507180826545,
+      0.0,
+      -1.1975324231194084
+    ],
+    "prediction_confidence": 0.33333111424802553,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.047801553545703576,
+      "movement_std": 0.01628828001250127,
+      "avg_confidence": 0.7579765005871123,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000092.pcd",
+    "scan_index": 92,
+    "predicted_pose": [
+      -3.8015008838176,
+      0.3395667060219359,
+      0.0,
+      -1.0399579163062622
+    ],
+    "observed_pose": [
+      -3.7915086830392886,
+      0.336987960132328,
+      0.0,
+      -1.0373372361502664
+    ],
+    "final_pose": [
+      -3.7915086830392886,
+      0.336987960132328,
+      0.0,
+      -1.0373372361502664
+    ],
+    "prediction_confidence": 0.33333017801192816,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.04881782651189124,
+      "movement_std": 0.017051513095008235,
+      "avg_confidence": 0.7456124743741389,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000093.pcd",
+    "scan_index": 93,
+    "predicted_pose": [
+      -3.70246218346406,
+      0.3421531918758479,
+      0.0,
+      -0.8771993412017351
+    ],
+    "observed_pose": [
+      -3.7654251577437714,
+      0.343362813481138,
+      0.0,
+      -0.885201016162684
+    ],
+    "final_pose": [
+      -3.7654251577437714,
+      0.343362813481138,
+      0.0,
+      -0.885201016162684
+    ],
+    "prediction_confidence": 0.3333315556874615,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.04771717141510065,
+      "movement_std": 0.017744873584655027,
+      "avg_confidence": 0.7383486998419183,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000094.pcd",
+    "scan_index": 94,
+    "predicted_pose": [
+      -3.7107964910953637,
+      0.3552267466322099,
+      0.0,
+      -0.7323623511598043
+    ],
+    "observed_pose": [
+      -3.6849938697155933,
+      0.3639766528673642,
+      0.0,
+      -0.7340884433361684
+    ],
+    "final_pose": [
+      -3.6849938697155933,
+      0.3639766528673642,
+      0.0,
+      -0.7340884433361684
+    ],
+    "prediction_confidence": 0.333321948165677,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.04785521548216084,
+      "movement_std": 0.018006918214066615,
+      "avg_confidence": 0.7316688140263621,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000095.pcd",
+    "scan_index": 95,
+    "predicted_pose": [
+      -3.6352583477187195,
+      0.39318770874699044,
+      0.0,
+      -0.5789938834019545
+    ],
+    "observed_pose": [
+      -3.5558800692196213,
+      0.363156369892828,
+      0.0,
+      -0.5713724044688945
+    ],
+    "final_pose": [
+      -3.5558800692196213,
+      0.363156369892828,
+      0.0,
+      -0.5713724044688945
+    ],
+    "prediction_confidence": 0.3333207299076459,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.052972049312596414,
+      "movement_std": 0.025143773659591664,
+      "avg_confidence": 0.7214402674304475,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000096.pcd",
+    "scan_index": 96,
+    "predicted_pose": [
+      -3.430361474732888,
+      0.3828088697923755,
+      0.0,
+      -0.41642662729534824
+    ],
+    "observed_pose": [
+      -3.5735267064696563,
+      0.4647248572435762,
+      0.0,
+      -0.43352072874223574
+    ],
+    "final_pose": [
+      -3.5735267064696563,
+      0.4647248572435762,
+      0.0,
+      -0.43352072874223574
+    ],
+    "prediction_confidence": 0.33330685345557615,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.055325320114719634,
+      "movement_std": 0.027519705826490888,
+      "avg_confidence": 0.7149782771030169,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000097.pcd",
+    "scan_index": 97,
+    "predicted_pose": [
+      -3.5000030910502153,
+      0.54149850873526,
+      0.0,
+      -0.28434828905963794
+    ],
+    "observed_pose": [
+      -3.5191375194959416,
+      0.46063245070579467,
+      0.0,
+      -0.2971190782314794
+    ],
+    "final_pose": [
+      -3.5191375194959416,
+      0.46063245070579467,
+      0.0,
+      -0.2971190782314794
+    ],
+    "prediction_confidence": 0.33320465150136996,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.05733391548367298,
+      "movement_std": 0.02595191900598745,
+      "avg_confidence": 0.7069207584851424,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000098.pcd",
+    "scan_index": 98,
+    "predicted_pose": [
+      -3.538002252533905,
+      0.5262450117244323,
+      0.0,
+      -0.1683839609374566
+    ],
+    "observed_pose": [
+      -3.512555737122912,
+      0.4821094821769558,
+      0.0,
+      -0.14558378670421493
+    ],
+    "final_pose": [
+      -3.512555737122912,
+      0.4821094821769558,
+      0.0,
+      -0.14558378670421493
+    ],
+    "prediction_confidence": 0.3332254003708595,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.05570327560051377,
+      "movement_std": 0.027093291532381783,
+      "avg_confidence": 0.700697553740773,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000099.pcd",
+    "scan_index": 99,
+    "predicted_pose": [
+      -3.541247241943099,
+      0.4965093519083813,
+      0.0,
+      -0.01286385639416221
+    ],
+    "observed_pose": [
+      -3.467494926890692,
+      0.515114015566704,
+      0.0,
+      -0.010469091389439633
+    ],
+    "final_pose": [
+      -3.467494926890692,
+      0.515114015566704,
+      0.0,
+      -0.010469091389439633
+    ],
+    "prediction_confidence": 0.3332219417304693,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.056423158489567,
+      "movement_std": 0.0269053935000142,
+      "avg_confidence": 0.6961958927244916,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000100.pcd",
+    "scan_index": 100,
+    "predicted_pose": [
+      -3.4155928704564693,
+      0.49775817504498276,
+      0.0,
+      0.13613989264819754
+    ],
+    "observed_pose": [
+      -3.452673155358036,
+      0.55578488958675,
+      0.0,
+      0.13425918196018632
+    ],
+    "final_pose": [
+      -3.452673155358036,
+      0.55578488958675,
+      0.0,
+      0.13425918196018632
+    ],
+    "prediction_confidence": 0.33327889085597223,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.056068655937690705,
+      "movement_std": 0.027031463697830282,
+      "avg_confidence": 0.6917587326992086,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000101.pcd",
+    "scan_index": 101,
+    "predicted_pose": [
+      -3.437400602130363,
+      0.6171806594372541,
+      0.0,
+      0.276292566585254
+    ],
+    "observed_pose": [
+      -3.4673086382001888,
+      0.594301313434714,
+      0.0,
+      0.2805108536945722
+    ],
+    "final_pose": [
+      -3.4673086382001888,
+      0.594301313434714,
+      0.0,
+      0.2805108536945722
+    ],
+    "prediction_confidence": 0.33332315430338777,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.054822607243251144,
+      "movement_std": 0.027142092537429427,
+      "avg_confidence": 0.6852693932723771,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000102.pcd",
+    "scan_index": 102,
+    "predicted_pose": [
+      -3.4711086766716015,
+      0.644764932846425,
+      0.0,
+      0.42237363484542345
+    ],
+    "observed_pose": [
+      -3.463386307521341,
+      0.642434266323243,
+      0.0,
+      0.4530675928926734
+    ],
+    "final_pose": [
+      -3.463386307521341,
+      0.642434266323243,
+      0.0,
+      0.4530675928926734
+    ],
+    "prediction_confidence": 0.3333200311535308,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.05604380643839052,
+      "movement_std": 0.026285309991951573,
+      "avg_confidence": 0.6820655958998388,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000103.pcd",
+    "scan_index": 103,
+    "predicted_pose": [
+      -3.498993315391319,
+      0.6919510476785881,
+      0.0,
+      0.6270455044497978
+    ],
+    "observed_pose": [
+      -3.4620537447971906,
+      0.7099587527948428,
+      0.0,
+      0.5929992548638001
+    ],
+    "final_pose": [
+      -3.4620537447971906,
+      0.7099587527948428,
+      0.0,
+      0.5929992548638001
+    ],
+    "prediction_confidence": 0.3333262150670051,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.0558268723075897,
+      "movement_std": 0.02617230417977289,
+      "avg_confidence": 0.6768558171520717,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000104.pcd",
+    "scan_index": 104,
+    "predicted_pose": [
+      -3.46674289299438,
+      0.7780821798709185,
+      0.0,
+      0.7561530117894072
+    ],
+    "observed_pose": [
+      -3.4759107171103407,
+      0.7416518296718447,
+      0.0,
+      0.7559457323196462
+    ],
+    "final_pose": [
+      -3.4759107171103407,
+      0.7416518296718447,
+      0.0,
+      0.7559457323196462
+    ],
+    "prediction_confidence": 0.33332436171709484,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.056576376058885734,
+      "movement_std": 0.025336142753060828,
+      "avg_confidence": 0.671959176114332,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000105.pcd",
+    "scan_index": 105,
+    "predicted_pose": [
+      -3.47714895507625,
+      0.7979160260419482,
+      0.0,
+      0.9104972408205935
+    ],
+    "observed_pose": [
+      -3.4972432154101627,
+      0.7666049985572716,
+      0.0,
+      0.9051815605731509
+    ],
+    "final_pose": [
+      -3.4972432154101627,
+      0.7666049985572716,
+      0.0,
+      0.9051815605731509
+    ],
+    "prediction_confidence": 0.3333206569324629,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.05603286750852692,
+      "movement_std": 0.02572597948505038,
+      "avg_confidence": 0.6758851338627405,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000106.pcd",
+    "scan_index": 106,
+    "predicted_pose": [
+      -3.5277481903078467,
+      0.7830422234340971,
+      0.0,
+      1.0513933616217712
+    ],
+    "observed_pose": [
+      -3.496057495279379,
+      0.8197121970671861,
+      0.0,
+      1.0459540991540164
+    ],
+    "final_pose": [
+      -3.496057495279379,
+      0.8197121970671861,
+      0.0,
+      1.0459540991540164
+    ],
+    "prediction_confidence": 0.33332587165601535,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.055641351820171665,
+      "movement_std": 0.025710714826974818,
+      "avg_confidence": 0.677853900112471,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000107.pcd",
+    "scan_index": 107,
+    "predicted_pose": [
+      -3.5129744554491023,
+      0.8416457991004994,
+      0.0,
+      1.1940017954388367
+    ],
+    "observed_pose": [
+      -3.5119625219949557,
+      0.8786168722158483,
+      0.0,
+      1.2119421157500583
+    ],
+    "final_pose": [
+      -3.5119625219949557,
+      0.8786168722158483,
+      0.0,
+      1.2119421157500583
+    ],
+    "prediction_confidence": 0.3333181460481587,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.05640338233355413,
+      "movement_std": 0.0256440162752722,
+      "avg_confidence": 0.6796429181658703,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000108.pcd",
+    "scan_index": 108,
+    "predicted_pose": [
+      -3.515423783874902,
+      0.9492105250165084,
+      0.0,
+      1.3595826734180765
+    ],
+    "observed_pose": [
+      -3.5451348097334714,
+      0.9037850028933777,
+      0.0,
+      1.3554552495067245
+    ],
+    "final_pose": [
+      -3.5451348097334714,
+      0.9037850028933777,
+      0.0,
+      1.3554552495067245
+    ],
+    "prediction_confidence": 0.33332657629399975,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.056402824242570204,
+      "movement_std": 0.025644337461585582,
+      "avg_confidence": 0.6842734224123351,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000109.pcd",
+    "scan_index": 109,
+    "predicted_pose": [
+      -3.571597162316852,
+      0.9560713462230748,
+      0.0,
+      1.5135146728367883
+    ],
+    "observed_pose": [
+      -3.5819906925268827,
+      0.8945392054960797,
+      0.0,
+      1.4332432565375455
+    ],
+    "final_pose": [
+      -3.5819906925268827,
+      0.8945392054960797,
+      0.0,
+      1.4332432565375455
+    ],
+    "prediction_confidence": 0.33331817825884036,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.056180020623872846,
+      "movement_std": 0.02578450270091026,
+      "avg_confidence": 0.690667617157523,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000110.pcd",
+    "scan_index": 110,
+    "predicted_pose": [
+      -3.6387246610308948,
+      0.8754127530143155,
+      0.0,
+      1.5258206460190162
+    ],
+    "observed_pose": [
+      -3.6220396860046447,
+      0.9006105891190926,
+      0.0,
+      1.5583541004355463
+    ],
+    "final_pose": [
+      -3.6220396860046447,
+      0.9006105891190926,
+      0.0,
+      1.5583541004355463
+    ],
+    "prediction_confidence": 0.333310416758055,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.0551290096633975,
+      "movement_std": 0.02599411472114724,
+      "avg_confidence": 0.7062917111478344,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000111.pcd",
+    "scan_index": 111,
+    "predicted_pose": [
+      -3.67402057099224,
+      0.8627282530104682,
+      0.0,
+      1.6210803712209776
+    ],
+    "observed_pose": [
+      -3.6851266295359064,
+      0.9055151405466256,
+      0.0,
+      1.766542070690726
+    ],
+    "final_pose": [
+      -3.6851266295359064,
+      0.9055151405466256,
+      0.0,
+      1.766542070690726
+    ],
+    "prediction_confidence": 0.3333081034676883,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.05474973225307256,
+      "movement_std": 0.025819295999362814,
+      "avg_confidence": 0.7080198526870599,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000112.pcd",
+    "scan_index": 112,
+    "predicted_pose": [
+      -3.747732006500012,
+      0.8991950101805443,
+      0.0,
+      1.9470732417592718
+    ],
+    "observed_pose": [
+      -3.670262301743707,
+      0.9145597204265545,
+      0.0,
+      1.762595941906247
+    ],
+    "final_pose": [
+      -3.670262301743707,
+      0.9145597204265545,
+      0.0,
+      1.762595941906247
+    ],
+    "prediction_confidence": 0.3332774200709138,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.0542522875183472,
+      "movement_std": 0.026435697183915512,
+      "avg_confidence": 0.7280609891133131,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000113.pcd",
+    "scan_index": 113,
+    "predicted_pose": [
+      -3.686726864658911,
+      0.9312665039109035,
+      0.0,
+      1.8793166108643136
+    ],
+    "observed_pose": [
+      -3.6683170379656507,
+      0.9020513404602044,
+      0.0,
+      1.7632393643242876
+    ],
+    "final_pose": [
+      -3.6683170379656507,
+      0.9020513404602044,
+      0.0,
+      1.7632393643242876
+    ],
+    "prediction_confidence": 0.3331292683898755,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.050548491961402355,
+      "movement_std": 0.02706643808877609,
+      "avg_confidence": 0.7370641598148946,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000114.pcd",
+    "scan_index": 114,
+    "predicted_pose": [
+      -3.6308399686227837,
+      0.8956374702172589,
+      0.0,
+      1.685530692892334
+    ],
+    "observed_pose": [
+      -3.6582180369772517,
+      0.9049106155798441,
+      0.0,
+      1.7626232334747463
+    ],
+    "final_pose": [
+      -3.6582180369772517,
+      0.9049106155798441,
+      0.0,
+      1.7626232334747463
+    ],
+    "prediction_confidence": 0.333223302731557,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.04430531083179361,
+      "movement_std": 0.021287466339177944,
+      "avg_confidence": 0.7489256079033979,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000115.pcd",
+    "scan_index": 115,
+    "predicted_pose": [
+      -3.6107304590453304,
+      0.8942486008459558,
+      0.0,
+      1.6377322845764382
+    ],
+    "observed_pose": [
+      -3.647371682837112,
+      0.9085317711311479,
+      0.0,
+      1.7599803028581642
+    ],
+    "final_pose": [
+      -3.647371682837112,
+      0.9085317711311479,
+      0.0,
+      1.7599803028581642
+    ],
+    "prediction_confidence": 0.33320245994722797,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.03948135302027741,
+      "movement_std": 0.0174607021571739,
+      "avg_confidence": 0.7636420980400491,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000116.pcd",
+    "scan_index": 116,
+    "predicted_pose": [
+      -3.639533995409602,
+      0.9082893677399454,
+      0.0,
+      1.7597407309559545
+    ],
+    "observed_pose": [
+      -3.6540291429068867,
+      0.9017772485156513,
+      0.0,
+      1.7614259775999535
+    ],
+    "final_pose": [
+      -3.6540291429068867,
+      0.9017772485156513,
+      0.0,
+      1.7614259775999535
+    ],
+    "prediction_confidence": 0.33333060591994185,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.03710982776091267,
+      "movement_std": 0.018294060948119986,
+      "avg_confidence": 0.7743051078364493,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000117.pcd",
+    "scan_index": 117,
+    "predicted_pose": [
+      -3.65184518591743,
+      0.9067755828441069,
+      0.0,
+      1.7600821194492937
+    ],
+    "observed_pose": [
+      -3.646333993343515,
+      0.8930183223731393,
+      0.0,
+      1.762063194494953
+    ],
+    "final_pose": [
+      -3.646333993343515,
+      0.8930183223731393,
+      0.0,
+      1.762063194494953
+    ],
+    "prediction_confidence": 0.3333302779579655,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.03654120457061576,
+      "movement_std": 0.018898407120202933,
+      "avg_confidence": 0.787135831981093,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000118.pcd",
+    "scan_index": 118,
+    "predicted_pose": [
+      -3.6515632423416737,
+      0.8788919982949484,
+      0.0,
+      1.7640991863141071
+    ],
+    "observed_pose": [
+      -3.6391503177783235,
+      0.8905086735632275,
+      0.0,
+      1.7589673684322433
+    ],
+    "final_pose": [
+      -3.6391503177783235,
+      0.8905086735632275,
+      0.0,
+      1.7589673684322433
+    ],
+    "prediction_confidence": 0.33333194529601756,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.03400196685526613,
+      "movement_std": 0.01936813101070413,
+      "avg_confidence": 0.7976810581370749,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  },
+  {
+    "scan_file": "cloud000119.pcd",
+    "scan_index": 119,
+    "predicted_pose": [
+      -3.633755070159554,
+      0.879321120270506,
+      0.0,
+      1.7585862394680218
+    ],
+    "observed_pose": [
+      -3.6391503177783235,
+      0.8905086735632275,
+      0.0,
+      1.7589673684322433
+    ],
+    "final_pose": [
+      -3.6391503177783235,
+      0.8905086735632275,
+      0.0,
+      1.7589673684322433
+    ],
+    "prediction_confidence": 0.3333312473463517,
+    "features": "extracted",
+    "motion_analysis": {
+      "scan_count": 20,
+      "avg_movement": 0.03400196685526613,
+      "movement_std": 0.01936813101070413,
+      "avg_confidence": 0.7976810581370749,
+      "recent_pattern": "unknown",
+      "current_weights": {
+        "feature": 0.0,
+        "geometric": 1.0,
+        "temporal": 0.0
+      },
+      "force_z_zero": true,
+      "z_redistribution_method": "prediction"
+    },
+    "processing_method": "ablation_fixed_weights",
+    "z_redistributed": true,
+    "weights": {
+      "feature": 0.0,
+      "geometric": 1.0,
+      "temporal": 0.0
+    },
+    "adaptation_frozen": true
+  }
+]

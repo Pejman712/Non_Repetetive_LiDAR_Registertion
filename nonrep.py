@@ -645,10 +645,13 @@ def process_non_repetitive_lidar_scans(observation_folder: str,
                                      observation_start_index=0,
                                      max_observation_clouds=None,
                                      force_z_zero=False,
-                                     z_redistribution_method='prediction'):
+                                     z_redistribution_method='prediction',
+                                     # --- NEW: ablation controls ---
+                                     fixed_weights: Optional[Tuple[float, float, float]] = None,
+                                     freeze_adaptation: bool = False):
     """
     Process non-repetitive LiDAR scans
-    
+
     Args:
         observation_folder: Path to observation PCD files
         apply_gicp_func: GICP function for registration
@@ -658,85 +661,102 @@ def process_non_repetitive_lidar_scans(observation_folder: str,
         max_observation_clouds: Maximum number of clouds to process
         force_z_zero: If True, forces z coordinate to 0 and redistributes z values
         z_redistribution_method: Method for redistributing z values ('prediction', 'dominant_axis', 'equal')
+
+        fixed_weights: Optional (feature, geometric, temporal). If provided, the processor
+                       will use these fusion weights for prediction.
+        freeze_adaptation: If True, disables internal adaptive re-weighting so weights remain fixed.
     """
     # Load clouds
     if apply_gicp_func is None:
         from Pctools import apply_gicp_direct
         apply_gicp_func = apply_gicp_direct
-    
+
     from Pctools import load_pcd_files
-    observation_pcds = load_pcd_files(observation_folder, observation_step_size, 
-                                     observation_start_index, max_observation_clouds)
-    
+    observation_pcds = load_pcd_files(observation_folder, observation_step_size,
+                                      observation_start_index, max_observation_clouds)
+
     if len(observation_pcds) == 0:
         print("Error: No observation point clouds found")
         return
-    
+
     print(f"\n=== Non-Repetitive LiDAR Processing ===")
     print(f"Processing {len(observation_pcds)} scans")
     print(f"Adaptive feature-based prediction enabled")
     print(f"Force Z=0: {force_z_zero}")
     if force_z_zero:
         print(f"Z redistribution method: {z_redistribution_method}")
-    
-    # Initialize processor with z=0 parameters
+
+    # Initialize processor
     processor = NonRepetitiveLiDARProcessor(
         force_z_zero=force_z_zero,
         z_redistribution_method=z_redistribution_method
     )
-    
+
+    # --- NEW: apply ablation controls ---
+    if fixed_weights is not None:
+        fw, gw, tw = fixed_weights
+        processor.feature_weight = float(fw)
+        processor.geometric_weight = float(gw)
+        processor.temporal_weight = float(tw)
+        print(f"[Ablation] Fixed weights -> feature={fw}, geometric={gw}, temporal={tw}")
+
+    if freeze_adaptation:
+        # Disable adaptive reweighting by making the analyzer a no-op
+        processor._analyze_motion_patterns = lambda *args, **kwargs: None
+        print("[Ablation] Adaptive re-weighting is FROZEN (no strategy updates).")
+
     # Store results
     results = []
     predicted_poses = []
     observed_poses = []
     final_poses = []
-    
+
     cumulative_transform = None
-    
+
     for i, (scan_name, scan_cloud) in enumerate(observation_pcds):
         print(f"\n=== Processing scan {i+1}/{len(observation_pcds)}: {scan_name} ===")
-        
+
         try:
             # Extract features from current scan
             print("Extracting scan features...")
             current_features = processor.extract_scan_features(scan_cloud)
-            
-            # Predict pose using adaptive method
+
+            # Predict pose using adaptive method (weights may be frozen/fixed)
             print("Predicting pose...")
             predicted_pose, prediction_confidence = processor.predict_pose_adaptive(current_features)
             predicted_poses.append(predicted_pose.copy() if predicted_pose is not None else None)
-            
+
             if predicted_pose is not None:
                 print(f"Predicted pose: {predicted_pose} (confidence: {prediction_confidence:.3f})")
             else:
                 print("No prediction available")
-            
+
             # GICP registration for observation
             observed_pose = None
             if i < len(observation_pcds) - 1:
                 next_scan_name, next_scan_cloud = observation_pcds[i + 1]
                 print(f"GICP registration: {scan_name} -> {next_scan_name}")
-                
+
                 # Get transformation from GICP
                 transformation = apply_gicp_func(scan_cloud, next_scan_cloud)
-                
+
                 # Accumulate transformation
                 if cumulative_transform is not None:
                     cumulative_transform = cumulative_transform @ transformation
                 else:
                     cumulative_transform = transformation
-                
+
                 # Convert to pose
                 observed_pose = transformation_to_pose(cumulative_transform)
                 print(f"Observed pose (before z redistribution): {observed_pose}")
-                
+
                 # Estimate registration confidence (simple heuristic)
                 reg_confidence = estimate_registration_confidence(scan_cloud, next_scan_cloud, transformation)
                 print(f"Registration confidence: {reg_confidence:.3f}")
-                
+
                 # Update processor with observation (includes z redistribution)
                 processor.update_with_observation(observed_pose, current_features, reg_confidence, predicted_pose)
-                
+
                 # Get the final pose after z redistribution
                 current_state = processor.get_current_state()
                 if current_state is not None:
@@ -744,7 +764,7 @@ def process_non_repetitive_lidar_scans(observation_folder: str,
                     print(f"Final observed pose (after z redistribution): {final_observed_pose}")
                 else:
                     final_observed_pose = observed_pose
-                
+
             else:
                 print("Last scan - no registration")
                 if len(observed_poses) > 0 and observed_poses[-1] is not None:
@@ -752,9 +772,9 @@ def process_non_repetitive_lidar_scans(observation_folder: str,
                 else:
                     observed_pose = np.array([0.0, 0.0, 0.0, 0.0])
                 final_observed_pose = observed_pose
-            
+
             observed_poses.append(final_observed_pose.copy() if final_observed_pose is not None else None)
-            
+
             # Get final pose estimate
             current_state = processor.get_current_state()
             if current_state is not None:
@@ -764,10 +784,10 @@ def process_non_repetitive_lidar_scans(observation_folder: str,
             else:
                 final_poses.append(None)
                 print("No final pose estimate")
-            
+
             # Store results
             motion_analysis = processor.get_motion_analysis()
-            
+
             result = {
                 'scan_file': scan_name,
                 'scan_index': observation_start_index + i * observation_step_size,
@@ -777,16 +797,24 @@ def process_non_repetitive_lidar_scans(observation_folder: str,
                 'prediction_confidence': prediction_confidence if predicted_pose is not None else 0.0,
                 'features': current_features,
                 'motion_analysis': motion_analysis,
-                'processing_method': 'non_repetitive_adaptive_z_zero' if force_z_zero else 'non_repetitive_adaptive',
-                'z_redistributed': force_z_zero
+                'processing_method': 'ablation_fixed_weights' if fixed_weights else (
+                    'non_repetitive_adaptive_z_zero' if force_z_zero else 'non_repetitive_adaptive'
+                ),
+                'z_redistributed': force_z_zero,
+                'weights': {
+                    'feature': processor.feature_weight,
+                    'geometric': processor.geometric_weight,
+                    'temporal': processor.temporal_weight
+                },
+                'adaptation_frozen': freeze_adaptation
             }
             results.append(result)
-            
+
         except Exception as e:
             print(f"Error processing {scan_name}: {e}")
             import traceback
             traceback.print_exc()
-            
+
             results.append({
                 'scan_file': scan_name,
                 'error': str(e)
@@ -794,7 +822,7 @@ def process_non_repetitive_lidar_scans(observation_folder: str,
             predicted_poses.append(None)
             observed_poses.append(None)
             final_poses.append(None)
-    
+
     # Final analysis
     motion_analysis = processor.get_motion_analysis()
     print(f"\n=== Processing Summary ===")
@@ -807,22 +835,21 @@ def process_non_repetitive_lidar_scans(observation_folder: str,
         print(f"Z-coordinate handling: {'Forced to zero' if motion_analysis['force_z_zero'] else 'Natural'}")
         if motion_analysis['force_z_zero']:
             print(f"Z redistribution method: {motion_analysis['z_redistribution_method']}")
-    
+
     # Visualization
     if visualize and len(final_poses) > 0:
-        # Simple combined cloud visualization
         combined_cloud = create_combined_cloud(observation_pcds, final_poses)
         if combined_cloud is not None:
             print("\nOpening combined LiDAR map...")
             window_name = "Non-Repetitive LiDAR Map (Z=0)" if force_z_zero else "Non-Repetitive LiDAR Map"
-            o3d.visualization.draw_geometries([combined_cloud], 
-                                            window_name=window_name,
-                                            width=1400, height=900)
-        
-        # Plot analysis
+            o3d.visualization.draw_geometries([combined_cloud],
+                                              window_name=window_name,
+                                              width=1400, height=900)
+
         plot_non_repetitive_analysis(predicted_poses, observed_poses, final_poses, processor)
-    
+
     return results, predicted_poses, observed_poses, final_poses
+
 
 def transformation_to_pose(transformation_matrix: np.ndarray) -> np.ndarray:
     """Convert 4x4 transformation matrix to pose [x,y,z,yaw]"""

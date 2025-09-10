@@ -496,8 +496,8 @@ if num_plots > 0:
             ax.plot(data['df_gt']['x'], data['df_gt']['y'], label="Ground truth", color='black', linewidth=2)
 
         ax.set_title(f"{data['prefix']}", fontsize=26)
-        ax.set_xlabel("X", fontsize=22)
-        ax.set_ylabel("Y", fontsize=22)
+        ax.set_xlabel("X [m]", fontsize=22)
+        ax.set_ylabel("Y [m]", fontsize=22)
 
         # Keep equal scaling and force square shape
         ax.set_aspect('equal', adjustable='box')
