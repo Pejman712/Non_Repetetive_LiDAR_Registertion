@@ -1,0 +1,60 @@
+my_node:
+  ros__parameters:
+
+    # -------------------------
+    # ROS / Input
+    # -------------------------
+    #lidar_topic: "/unilidar/cloud"
+    lidar_topic: "/eve/lidar3d"
+    queue_size: 10
+
+    # -------------------------
+    # Processing control
+    # -------------------------
+    step_decimation: 2             # Process every Nth scan
+    max_scans: -1                   # -1 = unlimited
+
+    # -------------------------
+    # Accumulation between decimation
+    # -------------------------
+    accumulate_between_decimation: true
+    accumulate_voxel: 0.1       # meters (set to -1 to disable)
+    accumulate_max_points: 1500000
+
+    # -------------------------
+    # Z handling
+    # -------------------------
+    force_z_zero: true
+    z_redistribution_method: "prediction"
+
+    # -------------------------
+    # Prediction weights
+    # -------------------------
+    fixed_weights: false            # true = use values below
+    feature_weight: 0.3
+    geometric_weight: 0.4
+    temporal_weight: 0.3
+
+    freeze_adaptation: false
+
+    # -------------------------
+    # Visualization
+    # -------------------------
+    visualize: true
+    map_voxel: 0.1                # downsample accumulated map
+
+    # -------------------------
+    # GICP
+    # -------------------------
+    gicp:
+      use_pctools_gicp: true
+      max_corr_distance: 2.0
+      voxel_size: 0.2
+      max_iterations: 50
+    odom_to_tum:
+      enabled: true
+      odom_topic: "/lidar/odom"
+      output_path: "/u/97/habibip1/unix/ros2_ws/src/regnonrep/tum/lidar_odom.tum"
+      flush_every_n: 10
+      use_msg_time: true
+      append: true

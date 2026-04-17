@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>regnonrep</name>
+  <version>0.0.0</version>
+  <description>Non-repetitive LiDAR ROS2 processing</description>
+
+  <maintainer email="habibip1@todo.todo">habibip1</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Build system -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Runtime dependencies -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+
+  <!-- Needed so ROS2 can find the package -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -2,7 +2,7 @@
 
 ![Header Image](Figures/gaf.png)
 
-## 🚀 Overview
+## Overview
 
 This repository implements a novel **LiDAR odometry and mapping pipeline** optimized for **non-repetitive LiDAR scans**, validated across real-world environments at **CERN**.
 
@@ -13,27 +13,27 @@ This project introduces a **spatial-context-aware registration framework** with:
 - Multi-strategy motion prediction
 - Adaptive pose fusion
 - Robustness to minimal scan overlap and distorted motion
-👉 [🔗 GitHub Code](https://github.com/Pejman712/NonRep.git)
+
 
 ---
 
-## 📍 Motivation
+##  Motivation
 
 > “Conventional registration methods break down with sparse, non-overlapping scans. This work tackles the failure modes of modern LiDAR in underground or structured environments.”
 
 ---
 
-## 🧠 Key Contributions
+##  Key Contributions
 
-✅ Real-time capable LiDAR odometry for non-repetitive scan patterns  
-✅ Adaptive fusion of predicted poses with observed transformations  
-✅ Tested across 6 distinct CERN environments  
-✅ Robust to motion distortion, minimal overlap, and structural ambiguity  
-✅ Benchmark datasets available for public evaluation  
+- Real-time capable LiDAR odometry for non-repetitive scan patterns  
+- Adaptive fusion of predicted poses with observed transformations  
+- Tested across 6 distinct CERN environments  
+- Robust to motion distortion, minimal overlap, and structural ambiguity  
+- Benchmark datasets available for public evaluation  
 
 ---
 
-## 🧰 Method Overview
+## Method Overview
 
 ![Pipeline](Figures/pipeline.png)
 
@@ -45,9 +45,9 @@ The method combines:
 
 ---
 
-## 📊 Performance Evaluation
+##  Performance Evaluation
 
-### 🔍 Quantitative & Visual Results
+### Quantitative & Visual Results
 
 We tested our method in 6 real-world CERN environments, including:
 - Tunnels (BA6, BA5)
@@ -56,7 +56,7 @@ We tested our method in 6 real-world CERN environments, including:
 
 ---
 
-## 🗺️ Reconstructed Maps
+## Reconstructed Maps
 
 Each map below showcases high-fidelity 3D reconstruction, sharper geometry, and better alignment using our proposed method.
 
@@ -64,32 +64,32 @@ Each map below showcases high-fidelity 3D reconstruction, sharper geometry, and 
 
 ---
 
-## 📂 Datasets & Structure
+## Datasets & Structure
 The bag files containing the lidar and IMU topics can be found at https://doi.org/10.5281/zenodo.17091989
-- 📁 `testdata/`: Benchmark point cloud datasets from CERN  
-- 📁 `Figures/`: Visuals used in the paper and documentation  
-
 
 ---
 
-## ⚙️ Requirements and Usage
+## Requirements and Usage
 
 Install the required dependencies with:
 
 ```bash
 pip install numpy open3d matplotlib scipy scikit-learn pandas
 ```
-
-Simply run nonrep with the correct pcd folder
+The the following package is tested with ubunutu 22.04 and ros humble, to install the package, please do the following steps,
 
 ```bash
-python3 nonrep.py
+cd your_workspace/src
+git clone https://github.com/Pejman712/Regnonrep.git
+cd ../..
+colcon build 
+```
+Launch the non_rep_lidar node:
+```bash
+ros2 launch regnonrep non_rep_lidar.launch.py
 ```
 
-you can also run evaluation by
-```bash
-python3 evaluate.py
-```
+
 
 
 
